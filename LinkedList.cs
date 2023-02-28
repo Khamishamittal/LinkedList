@@ -9,6 +9,7 @@ namespace LinkedList
 {
     public  class LinkedList
     {
+
         public Node head;
 
         public void Add(int data)
@@ -29,7 +30,7 @@ namespace LinkedList
                 }
                 temp.next = node;
             }
-            Console.WriteLine("{0} inserted into linked list ", node.data);
+            Console.WriteLine("{0} Added to linked list ", node.data);
         }
 
         public void Display()
