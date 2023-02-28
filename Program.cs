@@ -6,13 +6,12 @@
         {
             Console.WriteLine("Welcome to LinkedList Program");
 
-            Console.WriteLine("\nAdding 30 and 56 to  the Linked List \n");
-
+            Console.WriteLine("\nCreate Linked List by Appending 30 and 70 to 56\n");
 
             LinkedList linked = new LinkedList();
-            linked.Add(56);
-            linked.Add(30);
-            linked.Add(70);
+            linked.Append(56);
+            linked.Append(30);
+            linked.Append(70);
 
             linked.Display();
         }
