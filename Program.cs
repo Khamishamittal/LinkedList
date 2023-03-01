@@ -14,9 +14,10 @@
             linked.Add(70);
             linked.Display();
 
-            Console.WriteLine("After Inserting:");
 
-            linked.AddAtPosition(2, 30);
+            Console.WriteLine("After Poping First element..");
+
+            linked.Pop();
             linked.Display();
         }
     }
