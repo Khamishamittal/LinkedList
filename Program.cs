@@ -11,13 +11,17 @@
 
             LinkedList linked = new LinkedList();
             linked.Add(56);
+            linked.Add(30);
             linked.Add(70);
             linked.Display();
 
+            //linked.Pop();
+            //Console.WriteLine("After Poping First element..");
 
-            Console.WriteLine("After Poping First element..");
 
-            linked.Pop();
+
+            Console.WriteLine("\n------------Deleting last node--------------");
+            linked.PopLast();
             linked.Display();
         }
     }
