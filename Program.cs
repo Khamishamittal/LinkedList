@@ -15,14 +15,18 @@
             linked.Add(70);
             linked.Display();
 
+            //Console.WriteLine("\n------------Deleting first element--------------");
             //linked.Pop();
             //Console.WriteLine("After Poping First element..");
 
 
 
-            Console.WriteLine("\n------------Deleting last node--------------");
-            linked.PopLast();
-            linked.Display();
+            //Console.WriteLine("\n------------Deleting last node--------------");
+            //linked.PopLast();
+            //linked.Display();
+
+            //Console.WriteLine("\n------------finding node in linked list --------------");
+            linked.Search(30);
         }
     }
 }
